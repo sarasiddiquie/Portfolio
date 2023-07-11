@@ -173,6 +173,9 @@ img {
 
 .nav__logo {
     color: var(--white-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
 }
 
 .nav__toggle {
@@ -696,12 +699,12 @@ img {
 }
 
 .skill_bar_section .responsive-container-block.container {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-left: auto;
     justify-content: center;
-    max-width: 1320px;
+    max-width: 85%;
     overflow-x: hidden;
     overflow-y: visible;
 }
@@ -746,7 +749,7 @@ img {
 .skill_bar_section .skill-per {
     height: 6px;
     background-color: #7bb9ff;
-    width: 0px;
+    width: 70%;
     transition-duration: 1.3s;
     transition-timing-function: linear;
     transition-delay: 0s;
@@ -771,33 +774,38 @@ img {
 
 .skill_bar_section .skill-per.two {
     background-color: #5580ff;
+    width: 60%;
 }
 
 .skill_bar_section .skill-per.three {
     background-color: #ff8a73;
+    width: 55%;
 }
 
 .skill_bar_section .skill-per.four {
     background-color: #fed066;
+    width: 65%;
 }
 
 .skill_bar_section .circle {
-    max-width: 336px;
-    max-height: 336px;
-    width: 90%;
-    height: 90%;
+    max-width: 436px;
+    max-height: 436px;
+    width: 87%;
+    height: 87%;
     background-color: #fed066;
     align-items: center;
     position: absolute;
-    left: 30%;
+    margin: 5% auto;
+    border-radius: 100%;
+    margin-left: 25%;
 
 }
 
 .skill_bar_section .img {
     width: 130%;
     position: relative;
-    right: -30%;
-    box-shadow: rgba(0, 0, 0, 0.1) 6px 12px 24px;
+    margin: auto 40%;
+
 }
 
 .skill_bar_section .right-side {
@@ -888,4 +896,23 @@ img {
         margin-bottom: 40px;
         margin-left: 0px;
     }
+}
+
+.circle_des {
+    width: 150px;
+    /* Adjust the width and height as per your needs */
+    height: 150px;
+    margin-right: 90%;
+
+    background-color: rgb(91, 86, 86);
+    /* Set the desired background color */
+    border-radius: 0 0 100% 0;
+}
+
+.circle_inner {
+    width: 100px;
+    height: 100px;
+    margin-right: 90%;
+    background-color: rgb(187, 185, 185);
+    border-radius: 0 0 100% 0;
 }
